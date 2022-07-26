@@ -1,1 +1,3 @@
+- "!include railroading_operator.yaml"
 - "!include railroading_railroad.yaml"
+- "!include railroading_train.yaml"
