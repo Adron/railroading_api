@@ -7,6 +7,8 @@ services:
     - db_data:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: postgrespassword
+    ports:
+    - "5423:5423"
   graphql-engine:
     image: hasura/graphql-engine:v2.8.4
     ports:
